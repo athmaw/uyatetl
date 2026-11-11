@@ -104,3 +104,4 @@ const integratedStudents = sis.map((student, index) => {
 
 fs.writeFileSync(path.join(__dirname, 'integrated_students.json'), JSON.stringify(integratedStudents, null, 4), 'utf8');
 console.log('Successfully generated integrated_students.json with', integratedStudents.length, 'records.');
+
